@@ -248,6 +248,7 @@ func TestSucceedRun(t *testing.T) {
 		{format: "progress", concurrency: 4, filename: "fixtures/progress_output.txt"},
 		{format: "junit", concurrency: 4, filename: "fixtures/junit_output.xml"},
 		{format: "cucumber", concurrency: 2, filename: "fixtures/cucumber_output.json"},
+		{format: "custom-test", concurrency: 2, filename: "fixtures/cucumber_output.json"},
 	}
 
 	for _, tc := range testCases {
